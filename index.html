@@ -60,6 +60,7 @@
           <div class="table-surface">
             <div class="cake-wrapper">
               <img class="cake-img" src="imagens/bolo1.png" alt="Bolo de aniversário" />
+              <canvas id="candleCanvas" class="candle-canvas" aria-hidden="true"></canvas>
             </div>
           </div>
           <div class="table-leg"></div>
@@ -79,6 +80,27 @@
       </div>
     </main>
 
+    <!--
+    ╔══════════════════════════════════════════════╗
+    ║  🎵 ONDE COLOCAR O LINK DA MÚSICA (CENA 1)  ║
+    ║                                              ║
+    ║  Abra o arquivo  script.js  e procure por:   ║
+    ║                                              ║
+    ║    youtubeVideoId: 'COLE_SEU_ID_AQUI'        ║
+    ║                                              ║
+    ║  Como pegar o ID:                            ║
+    ║  1. Abra o YouTube e vá na sua música        ║
+    ║  2. Olhe a URL:                              ║
+    ║     youtube.com/watch?v=dQw4w9WgXcQ          ║
+    ║                          ↑↑↑↑↑↑↑↑↑↑↑       ║
+    ║  3. Copie essa parte e cole em script.js     ║
+    ╚══════════════════════════════════════════════╝
+    -->
+    <div class="music-player" aria-hidden="true">
+      <iframe id="youtubePlayer" width="0" height="0" src=""
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen tabindex="-1"></iframe>
+    </div>
 
     <div class="cta-wrapper">
       <button id="playButton" class="cta-btn">
@@ -100,7 +122,22 @@
       <div class="floaty-hearts" id="floatyHearts2"></div>
     </div>
 
-
+    <!--
+    ╔══════════════════════════════════════════════╗
+    ║  🎵 ONDE COLOCAR O LINK DA MÚSICA (CENA 2)  ║
+    ║                                              ║
+    ║  Abra  script.js  e procure por:             ║
+    ║                                              ║
+    ║    presentMusicId: 'COLE_SEU_ID_AQUI'        ║
+    ║                                              ║
+    ║  Essa música toca do presente até o fim.     ║
+    ╚══════════════════════════════════════════════╝
+    -->
+    <div class="music-player" aria-hidden="true">
+      <iframe id="presentMusicPlayer" width="0" height="0" src=""
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen tabindex="-1"></iframe>
+    </div>
 
     <div class="present-wrapper">
       <p class="present-title">Um presente especial para você 🎁</p>
