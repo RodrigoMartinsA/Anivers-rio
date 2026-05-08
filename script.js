@@ -9,8 +9,8 @@
 //  ╚═══════════════════════════════════════╝
 // ═══════════════════════════════════════════
 const CONFIG = {
-  musicScene1    : 'musica/inicio.mp3',   // ← Arquivo para a Cena 1
-  musicPresent   : 'musica/presente.mp3', // ← Arquivo para quando abrir o presente
+  musicScene1    : '/inicio.mp3',   // ← Arquivo para a Cena 1
+  musicPresent   : '/presente.mp3', // ← Arquivo para quando abrir o presente
 
   letterTitle    : 'Feliz Aniversário!',
   letterMessage  : 'Neste dia especial, quero que você saiba o quanto é importante. Obrigado por ser tão especial e trazer tanta felicidade à minha vida. Que este ano seja repleto de momentos mágicos, risadas sinceras e muito amor. Você merece o melhor que a vida pode oferecer.',
