@@ -180,8 +180,8 @@ img { display:block; }
 .stage {
   position: relative; z-index: 3;
   width: 100%; max-width: 600px;
-  padding-top:  clamp(70px, 20vh, 150px);
-  padding-bottom: clamp(95px, 19vh, 135px);
+  padding-top:  clamp(40px, 12vh, 80px);
+  padding-bottom: clamp(250px, 19vh, 135px);
   display: flex; flex-direction: column; align-items: center; gap:0;
 }
 
