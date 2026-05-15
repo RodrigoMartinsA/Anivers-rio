@@ -190,7 +190,7 @@ img { display:block; }
   display: flex; justify-content: flex-start; align-items: flex-end;
   width: 100%;
   padding: 0 clamp(8px,4vw,32px);
-  margin-bottom: clamp(-18px,-3.5vw,-8px);
+  margin-bottom: clamp(-80px,-3.5vw,-8px);
   z-index: 1; position: relative;
 }
 .characters--back .char img {
@@ -200,6 +200,7 @@ img { display:block; }
   filter: drop-shadow(0 6px 12px rgba(150,50,100,.2));
 }
 .char--rodrigo img { animation-duration:4.1s; animation-delay:0s; }
+.char--nick-aranha img { animation-duration:4.3s; animation-delay:.5s; width: clamp(58px, 14vw, 100px); }
 
 /* Mesa central */
 .table-scene {
@@ -298,6 +299,10 @@ img { display:block; }
 .right-pets .char--perola img {
   width: clamp(50px, 13vw, 88px);
   animation-duration: 3.3s; animation-delay: .4s;
+}
+.right-pets .char--nick-natal img {
+  width: clamp(50px, 13vw, 88px);
+  animation-duration: 3.8s; animation-delay: .1s;
 }
 .right-pets .char--cachorro img {
   width: clamp(58px, 15vw, 100px);
